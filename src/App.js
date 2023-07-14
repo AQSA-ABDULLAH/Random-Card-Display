@@ -7,7 +7,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 const Card = ({ title, description, color }) => {
   const cardStyle = {
     backgroundColor: color,
-    width: '200px',
+    width: '220px',
     height: '200px',
     margin: '0 auto',
   };
@@ -28,10 +28,10 @@ const App = () => {
   const initialCardsData = [
     { title: 'Card 1', description: 'Description for Card 1', color: '#FF0000' },
     { title: 'Card 2', description: 'Description for Card 2', color: '#00FF00' },
-    { title: 'Card 3', description: 'Description for Card 3', color: '#0000FF' },
+    { title: 'Card 3', description: 'Description for Card 3', color: '#808080' },
     { title: 'Card 4', description: 'Description for Card 4', color: '#fffdd0' },
-    { title: 'Card 5', description: 'Description for Card 5', color: '#0000EE' },
-    { title: 'Card 6', description: 'Description for Card 6', color: '#0000EF' },
+    { title: 'Card 5', description: 'Description for Card 5', color: '#FFFF00' },
+    { title: 'Card 6', description: 'Description for Card 6', color: '#FF8C00' },
     { title: 'Card 7', description: 'Description for Card 7', color: '#00BCFF' },
     { title: 'Card 8', description: 'Description for Card 8', color: '#AC00FF' },
     { title: 'Card 9', description: 'Description for Card 9', color: '#DF00FF' },
