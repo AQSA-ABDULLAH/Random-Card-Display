@@ -9,6 +9,8 @@ const Card = ({ title, description }) => {
     </div>
   );
 };
+import './App.css';
+import Card from './Card';
 
 // App component
 const App = () => {
@@ -25,17 +27,7 @@ const App = () => {
     { title: 'Card 9', description: 'Description for Card 9' },
   ];
 
-  return (
-    <div className="App">
-      <h1>Card List</h1>
-      <div className="card-list">
-        {cardsData.map((card, index) => (
-          <Card key={index} title={card.title} description={card.description} />
-        ))}
-      </div>
-    </div>
-  );
+
 };
 
 export default App;
-
